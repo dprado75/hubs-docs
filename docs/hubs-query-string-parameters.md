@@ -27,3 +27,5 @@ https://localhost:8080/?hub_id=12345&allow_multi
 - `userinput_debug` - If `true`, enables an on-screen userinput debug status panel. Press "L" on your keyboard to show the panel.
 - `thirdPerson` - Enables experimental third person mode.
 - `fov` - Set a custom field of view in degrees (between 1 and 179) for the camera. (2D only) 
+- `force_turn` - If `true` will force TURN (either UDP DTLS or TCP TLS, which ever works)
+- `force_tcp` - If `true` will force TURN TCP TLS
